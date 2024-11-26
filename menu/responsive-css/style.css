@@ -1,0 +1,415 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: #CBBD93;
+    font-family: poppins;
+}
+
+.navbar{
+    background-color: #275B3A;
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: end;
+    position: static;
+    justify-content: start;
+}
+
+.navbar .navbar1{
+    background-color: white;
+    position: relative;
+    border-radius: 200px;
+    top: 100px;
+    border: #275B3A solid 30px;
+}
+
+.search-bar{
+    flex-grow: 1; 
+    margin: 0 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+} 
+
+.search-bar .input{
+    width: 30%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+}
+
+.login-button { 
+    background-color: #CBBD93; 
+    color: #275B3A; 
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 20px; 
+    border: none; 
+    border-radius: 20px; 
+    cursor: pointer; 
+    position: relative;
+    left: 380px;
+}
+
+.container{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.inputs input{
+    width: 50%;
+    margin-bottom: 10px;
+    height: 25vh;
+    border-radius: 50px;
+    font-size: 15px;
+    order: solid 1px black;
+    background-color: transparent;
+    color: black; /* Cor do texto */
+    outline: none;
+    padding-left: 10px;
+}
+
+.pessoal{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pessoal input{
+    margin: 5px; 
+    height: 9vh;
+    width: 25%;
+    border-radius: 50px;
+    font-size: 15px;
+    order: solid 1px black;
+    background-color: transparent;
+    color: black; /* Cor do texto */
+    outline: none;
+    padding-left: 10px;
+}
+
+.container-fluid-h1{
+    width: 95%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url();
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 200vh;
+    filter: drop-shadow(-1px 5px 7px #000000);
+    background-image: url(/img/pexels-polina-tankilevitch-3738388.jpg); 
+    position: relative;
+    border:solid #000 2px;
+    left: 35px;
+}
+
+.container-fluid-h1 h1 {
+    color: #2E5234;
+}
+
+.container-fluid-h1 h2 {
+    color: #2E5234;
+}
+
+.container-fluid-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    flex-direction: column;
+}
+
+.container-fluid-main .bloco{
+    width: 85%;
+    height: 220vh;
+    background-color: rgb(230, 229, 229);
+    display: flex;
+    justify-content: column;
+    align-items: start;
+    flex-direction: row;
+    filter: drop-shadow(-1px 11px 13px #000000);
+    margin-top: 25px;
+    border-radius: 25px;
+    
+}
+
+.ajus{
+    
+    width: 100%;
+    height: 100%;
+}
+
+.titulo{
+    
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.titulo .text-1{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    top: 15px;
+    position: relative;
+    left: 20px;
+}
+
+
+.text-1 h1{
+    position: relative;
+    left: 30px;
+    font-size: 80px;
+    text-decoration: underline#CBBD93;
+    font-weight: bold;
+}
+
+.text-1 p{
+    font-size: 30px;
+    width: 80vh;
+    position: relative;
+    left: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.img-1{
+    width: 50%;
+    height: 55vh;
+    top: 25px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 80px;
+    border-radius: 5%;
+}
+
+.img-1 .img{
+    border-radius: 30%;
+}
+
+
+.titulo2{
+    width: 90%;
+    height: 80vh;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.titulo2 .text-2{
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    top: 15px;
+    position: relative;
+}
+
+.text-2 .h1-2{
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    text-decoration: underline #CBBD93;
+}
+
+.text-2 .p2{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    font-size: 25px;
+    position: relative;
+    top: 25px;
+    left: 75px;
+}
+
+.img-2{
+    position: relative;
+    left: 25px;
+    top: 18vh;
+}
+
+.img-2 img{
+    border-radius: 4%;
+}
+
+
+.barraprod{
+    width: 100%;
+    height: 15vh;
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25,5px;
+    text-decoration: underline#CBBD93;
+}
+
+.container-fluid-service{
+    width: 100%;
+    height: 75vh;
+    background-image: url(/img/fundo.png);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.titulo2 .login-button2{
+    background-color: #275B3A; 
+    color: white; 
+    font-weight: bold;
+    font-size: 25px;
+    text-transform: uppercase;
+    padding: 50px 100px; 
+    border: none; 
+    border-radius: 20px; 
+    cursor: pointer; 
+    position: relative;
+    left: 300px;
+}
+
+.card1{
+    background-color: antiquewhite;
+    width: 26%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50px;
+}
+
+.card1 p{
+    width: 90%;
+    font-size: 21px;
+    position: relative;
+    top: 30px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#paw{
+    position: relative;
+    top: 25px;
+}
+
+.card2{
+    width: 26%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: antiquewhite;
+    border-radius: 50px;
+}
+
+.card2 p{
+    display: flex;
+    text-align:center ;
+    font-size: 21px;
+    position: relative;
+    top: 50px;
+}
+
+#hospital{
+    position: relative;
+    top: 20px;
+}
+
+.card3{
+    width: 26%;
+    height: 50vh;
+    background-color: antiquewhite;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 50px;
+}
+
+.card3 p{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 23px;
+    width: 50vh;
+    position: relative;
+    top: 30px;
+}
+
+.card3 #call{
+    position: relative;
+    top: 20px; 
+}
+
+.box{
+    width: 100%;
+    height: 50vh;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box .h1{
+    width: 40%;
+    height: 100%;
+    display: flex;
+   justify-content: center;
+   flex-direction: column;
+   font-size: 25px;
+   align-items: center;
+   font-weight: bold;
+}
+
+.h1 .cabinha{
+    width: 50%;
+}
+
+.box .form{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form .quest{
+    flex-grow: 1; 
+    margin: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.quest input{
+    border-radius: 50px;
+    border: none;
+    width: 60vh;
+    height: 30px;
+}
